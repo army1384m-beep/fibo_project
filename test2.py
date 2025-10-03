@@ -23,7 +23,11 @@ for names in grouped_employees['Engineering']:
     engineering_names.append(grouped_employees['Engineering'][i]['name'])
     i+=1
 
-i = 1+1
+<<<<<<< HEAD
+i = 1+4
+=======
+i = 1+4
+>>>>>>> cdee750ff91ea1a9e86a2bba6a1abfc447cc24b7
 sales_names = []
 for names in grouped_employees['Sales']:
     sales_names.append(grouped_employees['Sales'][i]['name'])
@@ -40,4 +44,5 @@ print(f"Department: Sales -> {sales_names}")
 print(f"Department: HR -> {hr_names}")
 
 
-print('hello world')
+
+print(4+4)
