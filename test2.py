@@ -23,7 +23,7 @@ for names in grouped_employees['Engineering']:
     engineering_names.append(grouped_employees['Engineering'][i]['name'])
     i+=1
 
-i = 0
+i = 1
 sales_names = []
 for names in grouped_employees['Sales']:
     sales_names.append(grouped_employees['Sales'][i]['name'])
